@@ -1,26 +1,20 @@
 {
   "grammars": [
     {
-      "name": "bash",
-      "camelcase": "Bash",
-      "scope": "source.bash",
+      "name": "ebuild",
+      "camelcase": "Ebuild",
+      "scope": "source.ebuild",
       "path": ".",
       "file-types": [
-        "sh",
-        "bash",
-        ".bashrc",
-        ".bash_profile",
         "ebuild",
         "eclass"
-      ],
-      "injection-regex": "^(shell|bash|sh)$",
-      "first-line-regex": "^#!.*\\b(sh|bash|dash)\\b.*$"
+      ]
     }
   ],
   "metadata": {
     "version": "0.25.1",
     "license": "MIT",
-    "description": "Bash grammar for tree-sitter",
+    "description": "Ebuild grammar for tree-sitter",
     "authors": [
       {
         "name": "Max Brunsfeld",
@@ -29,10 +23,14 @@
       {
         "name": "Amaan Qureshi",
         "email": "amaanq12@gmail.com"
+      },
+      {
+        "name": "Pavel Sobolev",
+        "email": "contact@paveloom.dev"
       }
     ],
     "links": {
-      "repository": "https://github.com/tree-sitter/tree-sitter-bash"
+      "repository": "https://gitlab.com/paveloom-g/forks/tree-sitter-ebuild"
     }
   },
   "bindings": {
